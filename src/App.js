@@ -20,6 +20,7 @@ function App() {
     name: "CSE 3A Group",
   });
 
+
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
